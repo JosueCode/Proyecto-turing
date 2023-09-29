@@ -1,0 +1,74 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00bcd4;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 40px;
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+
+#section-hero h1 {
+    font-size: 36px;
+}
+
+#section-hero p {
+    font-size: 18px;
+}
+
+/* Estilos para las imágenes alineadas con el texto */
+.align-left {
+    float: left;
+    margin-right: 20px;
+}
+
+.align-right {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px; /* Margen inferior para evitar superposición con el footer */
+}
+
+/* Estilos para redimensionar las imágenes */
+.img-resize {
+    max-width: 300px;
+    height: auto;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
